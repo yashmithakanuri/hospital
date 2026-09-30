@@ -1,0 +1,23 @@
+{
+  "name": "hospital-project",
+  "version": "1.0.0",
+  "description": "Hospital appointment booking system built with HTML, CSS, Bootstrap, JavaScript, Node.js core modules, and AWS DynamoDB.",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "hospital",
+    "appointments",
+    "dynamodb",
+    "aws"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0"
+  }
+}
